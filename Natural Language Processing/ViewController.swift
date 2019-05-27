@@ -22,9 +22,9 @@ class ViewController: UIViewController {
         recognizer.processString(string)
         recognizer.dominantLanguage // en // ja
         recognizer.languageHypotheses(withMaximum: 2) // how confidence level of recognizer
-        
         print("The langauge being spoken is: ", recognizer.dominantLanguage!, recognizer.languageHypotheses(withMaximum: 2))
-        // Do any additional setup after loading the view.
+        
+        UITextChecker.learnWord("Weekend") // add recognized word for the whole device
     }
     
     func speach(){
