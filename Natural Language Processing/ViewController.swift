@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        speach()
+        speech()
         
         let string = "Hello, I am speaking my own lanaguage."//"私はガラスを食べられます。それは私を傷つけません。"
         
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         UITextChecker.learnWord("Weekend") // add recognized word for the whole device
     }
     
-    func speach(){
+    func speech(){
 //       let string = """
 //Je m'baladais sur l'avenue le cœur ouvert à l'inconnu
 //    J'avais envie de dire bonjour à n'importe qui.
